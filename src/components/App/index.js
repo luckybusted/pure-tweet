@@ -2,6 +2,7 @@ import supabase from '../../lib/supabase'
 import './App.css';
 import AuthForm from '../AuthForm';
 import { useState } from 'react';
+import TweetForm from '../TweetForm';
 
 function App() {
   // const { user, session, error } = supabase.auth.signIn({
@@ -28,7 +29,7 @@ function App() {
         <p>
           You are logged in with twitter.
         </p>
-
+        <TweetForm />
       </header>
     </div>
     )}
